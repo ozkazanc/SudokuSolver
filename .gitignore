@@ -3,3 +3,4 @@ SudokuSolver/bin
 SudokuSolver/obj
 SudokuSolver/Properties
 SudokuSolver/*.config
+*.user
