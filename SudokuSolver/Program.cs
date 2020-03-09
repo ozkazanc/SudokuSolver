@@ -105,7 +105,7 @@ namespace SudokuSolver
 
                     bool isParsable = Int32.TryParse(words[x * 9 + y], out number);
 
-                    if (isParsable)
+                    if (isParsable && number >= 0 && number <= 9)
                         board[x, y] = number;
 
                     else {
